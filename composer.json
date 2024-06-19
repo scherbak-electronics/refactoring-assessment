@@ -1,11 +1,13 @@
 {
   "require": {
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^9.5",
+    "symfony/dotenv": "^6.4"
   },
   "autoload": {
     "psr-4": {
       "CommissionCalculator\\": "CommissionCalculator/",
       "Services\\": "Services/",
+      "Exceptions\\": "Exceptions/",
       "Api\\": "Api/",
       "Tests\\": "tests/"
     }

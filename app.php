@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-
+const PROJECT_ROOT = __DIR__;
 use CommissionCalculator\CommissionCalculator;
 use CommissionCalculator\Transaction;
 use Services\BinService;
