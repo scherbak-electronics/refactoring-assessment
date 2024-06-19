@@ -5,6 +5,7 @@ PHP refactoring skills assessment task
 To run this app please set your API key in `.env` file (see `.env.example`)
 Then open terminal and run this command:
 ```shell
+composer install
 php app.php input.txt
 ```
 you will see some this like this:
